@@ -48,11 +48,10 @@ app.get(/^(?!\/health|\/socket-health|\/socket\.io)/, (req, res) => {
 const io = new Server(server, {
   cors: {
     origin: [
-      "https://movie-party-bice.vercel.app",
-      "https://movie-party-git-main-kumarraushan2797-6902s-projects.vercel.app",
-      "https://movie-party-5srathvcm-kumarraushan2797-6902s-projects.vercel.app",
-      "http://localhost:3000",
-    ],
+  "https://movie-party-git-main-rohitsenpai1234s-projects.vercel.app",
+  "https://movie-party-hazel.vercel.app",
+  "http://localhost:3000"
+],
     methods: ["GET", "POST"],
     credentials: true,
   },
